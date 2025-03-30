@@ -7,6 +7,11 @@ function Nav() {
     function showMenu() {
         setIsMenuShown((prevState) => !prevState);
     }
+
+    isMenuShown
+        ? (document.body.style.overflow = "hidden")
+        : (document.body.style.overflow = "auto");
+
     return (
         <nav className="my-4 flex items-center justify-between py-4 md:my-8">
             <img src="/news-homepage/logo.svg" alt="logo" className="w-13" />
@@ -40,6 +45,7 @@ function Nav() {
                         animate={{ opacity: 0.8 }}
                         exit={{ opacity: 0 }}
                         key={"overlay"}
+                        onClick={showMenu}
                     ></motion.div>
                 )}
 
