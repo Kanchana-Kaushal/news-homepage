@@ -17,7 +17,7 @@ function Hero() {
                 </h1>
 
                 <div className="md:flex-1/2">
-                    <p className="text-Dark-grayish-blue text-lg">
+                    <p className="text-Dark-grayish-blue text-lg my-8 md:my-0">
                         We dive into the next evolution of the web that claims
                         to put the power of the platforms back into the hands of
                         the people. But is it really fulfilling its promise?
