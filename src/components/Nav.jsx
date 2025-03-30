@@ -9,7 +9,7 @@ function Nav() {
     }
     return (
         <nav className="my-4 flex items-center justify-between py-4 md:my-8">
-            <img src="/logo.svg" alt="logo" className="w-13" />
+            <img src="/news-homepage/logo.svg" alt="logo" className="w-13" />
 
             <div className="hidden md:block">
                 <ul className="text-Dark-grayish-blue flex items-center space-x-8">
@@ -53,7 +53,7 @@ function Nav() {
                         key={"menu"}
                     >
                         <img
-                            src="/icon-menu-close.svg"
+                            src="/news-homepage/icon-menu-close.svg"
                             alt=""
                             className="float-right"
                             onClick={showMenu}
@@ -80,7 +80,7 @@ function Nav() {
             </AnimatePresence>
 
             <img
-                src="/icon-menu.svg"
+                src="/news-homepage/icon-menu.svg"
                 alt=""
                 className="md:hidden"
                 onClick={showMenu}
